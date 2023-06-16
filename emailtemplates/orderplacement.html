@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Email</title>
+</head>
+<body>
+    <h3><b>Dear {{name}},</b></h3>
+    <p>Your Order is Placed Successfully</p>
+
+    <table cellpadding="6" border="1" cellspacing="0" style="font-family:Tahoma;font-size:12px">
+        <tbody><tr>
+            <td nowrap="" colspan="2" bgcolor="#2f2f2f"><b><font color="#FFFFFF">Order 
+            Details:</font></b></td>
+        </tr>
+        <tr>
+            <td><b>Date and Time</b></td>
+            <td>{{date}}</td>
+        </tr>
+        <tr>
+            <td><b>Priority</b></td>
+            <td>{{priority}}</td>
+        </tr>
+        <tr>
+            <td><b>Type</b></td>
+            <td>{{type}}</td>
+        </tr>
+        <tr>
+            <td><b>Design Name</b></td>
+            <td>{{designName}}</td>
+        </tr>
+        <tr>
+            <td><b>Email Receipt Requested</b></td>
+            <!-- <td>{{receipt}}</td> -->
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td><b>Order Status</b></td>
+            <td>{{status}}</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <br><br><br>
+    <p>Sincerely,</p>
+    AACreativeEMB Staff
+</body>
+</html>
